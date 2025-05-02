@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity expert specializing in ethical hacking, penetration testing, and security consulting">
+    <meta name="keywords" content="hacker, cybersecurity, penetration testing, ethical hacking, security researcher">
+    <title>ROHIT RAJPUT - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="glitch" data-text="SHADOW BLADE">SHADOW BLADE</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user-secret"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="#ctf"><i class="fas fa-flag"></i> CTF</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <button id="darkModeToggle"><i class="fas fa-moon"></i></button>
+                <span class="theme-text">Dark Mode</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-btn red"></span>
+                        <span class="terminal-btn yellow"></span>
+                        <span class="terminal-btn green"></span>
+                    </div>
+                    <span class="terminal-title">root@kali:~</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-text"><span class="terminal-prompt">$</span> whoami</p>
+                    <p class="terminal-output">ethical_hacker | security_researcher | ctf_player</p>
+                    <p class="terminal-text"><span class="terminal-prompt">$</span> <span class="typing-text"></span><span class="cursor">|</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2><i class="fas fa-user-secret"></i> About Me</h2>
+            <div class="profile-container">
+                <div class="profile-image-container">
+                    <img src="profile.jpg" alt="Alex Carter" class="profile-image">
+                    <div class="profile-badge">
+                        <span class="badge-text">Security+</span>
+                        <span class="badge-text">CEH</span>
+                        <span class="badge-text">OSCP</span>
+                    </div>
+                </div>
+                <div class="profile-content">
+                    <p>I'm a cybersecurity professional with 5+ years of experience in penetration testing, vulnerability assessment, and security research. My mission is to help organizations secure their digital assets against evolving threats.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="150">0</div>
+                            <div class="stat-label">Vulnerabilities Found</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="42">0</div>
+                            <div class="stat-label">CTF Challenges Won</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="27">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2><i class="fas fa-laptop-code"></i> Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Offensive Security</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Penetration Testing</li>
+                        <li><i class="fas fa-check"></i> Web App Security</li>
+                        <li><i class="fas fa-check"></i> Network Security</li>
+                        <li><i class="fas fa-check"></i> Exploit Development</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Defensive Security</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> SIEM Implementation</li>
+                        <li><i class="fas fa-check"></i> Incident Response</li>
+                        <li><i class="fas fa-check"></i> Threat Hunting</li>
+                        <li><i class="fas fa-check"></i> Security Auditing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li><i class="fas fa-terminal"></i> Kali Linux, Metasploit</li>
+                        <li><i class="fas fa-network-wired"></i> Burp Suite, Wireshark</li>
+                        <li><i class="fas fa-code"></i> Python, Bash, PowerShell</li>
+                        <li><i class="fas fa-lock"></i> OWASP Top 10 Mitigation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Automated Pentest Framework</h3>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">An open-source framework for automating penetration testing tasks with modular plugin architecture.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Network Vulnerability Scanner</h3>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Custom vulnerability scanner that identifies weaknesses in network infrastructure and services.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Nmap</span>
+                        <span class="tech-tag">Multithreading</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Phishing Detection Chrome Extension</h3>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Real-time phishing URL detection using machine learning and threat intelligence feeds.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">ML</span>
+                        <span class="tech-tag">Chrome API</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Secure Password Manager</h3>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">CLI-based password manager with AES-256 encryption and breach monitoring.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Cryptography</span>
+                        <span class="tech-tag">SQLite</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ctf">
+            <h2><i class="fas fa-flag"></i> CTF Achievements</h2>
+            <div class="ctf-container">
+                <div class="ctf-timeline">
+                    <div class="ctf-event">
+                        <div class="ctf-date">2023</div>
+                        <div class="ctf-content">
+                            <h3>1st Place - HackTheBox University CTF</h3>
+                            <p>Led team to victory in web exploitation and cryptography challenges.</p>
+                        </div>
+                    </div>
+                    <div class="ctf-event">
+                        <div class="ctf-date">2022</div>
+                        <div class="ctf-content">
+                            <h3>Top 10 - DEF CON Qualifiers</h3>
+                            <p>Solved advanced binary exploitation and reverse engineering challenges.</p>
+                        </div>
+                    </div>
+                    <div class="ctf-event">
+                        <div class="ctf-date">2021</div>
+                        <div class="ctf-content">
+                            <h3>3rd Place - CSAW Red Team Competition</h3>
+                            <p>Excelled in network penetration testing and privilege escalation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ctf-badges">
+                    <img src="assets/htb-badge.png" alt="HackTheBox Badge" class="ctf-badge">
+                    <img src="assets/tryhackme-badge.png" alt="TryHackMe Badge" class="ctf-badge">
+                    <img src="assets/oscp-cert.png" alt="OSCP Certification" class="ctf-badge">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-container">
+                <form id="contactForm" class="contact-form" autocomplete="off">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required pattern="[A-Za-z ]{3,50}">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a topic</option>
+                            <option value="consulting">Security Consulting</option>
+                            <option value="pentest">Penetration Testing</option>
+                            <option value="training">Security Training</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required minlength="20" maxlength="500"></textarea>
+                        <div class="char-counter"><span id="charCount">0</span>/500</div>
+                    </div>
+                    <div class="form-group">
+                        <div class="honeypot">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" name="website">
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@alexcarter.infosec</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-key"></i>
+                        <span>PGP: <a href="#" class="pgp-link">0xABCDEF1234567890</a></span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://hackthebox.com" target="_blank" rel="noopener noreferrer" aria-label="HackTheBox">
+                            <i class="fas fa-cube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="formResponse" class="form-response"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="legal-link">Legal</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023 SHADOW WARRIORS. All rights reserved.</p>
+                <p class="security-info">
+                    <i class="fas fa-lock"></i> This site is secured with HTTPS and has a <a href="#" class="security-link">security.txt</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
